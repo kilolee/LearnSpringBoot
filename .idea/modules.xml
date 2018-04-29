@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootJPAThymeleaf/SpringBootJPAThymeleaf.iml" filepath="$PROJECT_DIR$/SpringBootJPAThymeleaf/SpringBootJPAThymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootThymeleaf/SpringBootJPAThymeleaf.iml" filepath="$PROJECT_DIR$/SpringBootThymeleaf/SpringBootJPAThymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" filepath="$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" filepath="$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" />
