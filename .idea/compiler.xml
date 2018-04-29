@@ -9,6 +9,7 @@
         <module name="Demo" />
         <module name="HelloWorld" />
         <module name="spring-multi-data-jpa" />
+        <module name="SpringBootJPAThymeleaf" />
         <module name="SpringBootWeb" />
         <module name="SpringDataJPA" />
         <module name="SpringMultiDataJPA" />
@@ -18,6 +19,7 @@
       <module name="Demo" target="1.8" />
       <module name="HelloWorld" target="1.8" />
       <module name="spring-multi-data-jpa" target="1.8" />
+      <module name="SpringBootJPAThymeleaf" target="1.8" />
       <module name="SpringBootWeb" target="1.8" />
       <module name="SpringDataJPA" target="1.8" />
       <module name="SpringMultiDataJPA" target="1.8" />

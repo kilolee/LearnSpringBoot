@@ -16,4 +16,13 @@ public class HelloController {
         return "hello";
     }
 
+    @RequestMapping("/layout")
+    public String layout() {
+        return "layout";
+    }
+
+    @RequestMapping("/home")
+    public String home() {
+        return "home";
+    }
 }

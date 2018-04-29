@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootThymeleaf/SpringBootJPAThymeleaf.iml" filepath="$PROJECT_DIR$/SpringBootThymeleaf/SpringBootJPAThymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" filepath="$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" filepath="$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringMultiDataJPA/spring-multi-data-jpa.iml" filepath="$PROJECT_DIR$/SpringMultiDataJPA/spring-multi-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" filepath="$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" />
+      <module fileurl="file://G:\workspace-for-IntelliJ\LearnSpringBoot\SpringMultiDataJPA\spring-multi-data-jpa.iml" filepath="G:\workspace-for-IntelliJ\LearnSpringBoot\SpringMultiDataJPA\spring-multi-data-jpa.iml" />
     </modules>
   </component>
 </project>
