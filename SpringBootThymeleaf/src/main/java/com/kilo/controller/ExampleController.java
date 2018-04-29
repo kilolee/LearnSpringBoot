@@ -1,7 +1,6 @@
 package com.kilo.controller;
 
 import com.kilo.domain.User;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
