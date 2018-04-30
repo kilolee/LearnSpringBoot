@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootJPAThymeleaf/SpringBootJPAThymeleaf.iml" filepath="$PROJECT_DIR$/SpringBootJPAThymeleaf/SpringBootJPAThymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBootThymeleaf/SpringBootJPAThymeleaf.iml" filepath="$PROJECT_DIR$/SpringBootThymeleaf/SpringBootJPAThymeleaf.iml" />
+      <module fileurl="file://G:\workspace-for-IntelliJ\LearnSpringBoot\SpringBootThymeleaf\SpringBootJPAThymeleaf.iml" filepath="G:\workspace-for-IntelliJ\LearnSpringBoot\SpringBootThymeleaf\SpringBootJPAThymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" filepath="$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" filepath="$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" filepath="$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" filepath="$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" />

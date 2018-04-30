@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Demo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMultiDataJPA/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootJPAThymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMybatisXML/pom.xml" />
       </list>
     </option>
   </component>
