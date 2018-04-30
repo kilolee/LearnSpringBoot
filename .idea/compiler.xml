@@ -10,6 +10,7 @@
         <module name="HelloWorld" />
         <module name="spring-multi-data-jpa" />
         <module name="SpringBootJPAThymeleaf" />
+        <module name="SpringBootMybatisAnnotation" />
         <module name="SpringBootMybatisXML" />
         <module name="SpringBootWeb" />
         <module name="SpringDataJPA" />
@@ -21,6 +22,7 @@
       <module name="HelloWorld" target="1.8" />
       <module name="spring-multi-data-jpa" target="1.8" />
       <module name="SpringBootJPAThymeleaf" target="1.8" />
+      <module name="SpringBootMybatisAnnotation" target="1.8" />
       <module name="SpringBootMybatisXML" target="1.8" />
       <module name="SpringBootWeb" target="1.8" />
       <module name="SpringDataJPA" target="1.8" />
