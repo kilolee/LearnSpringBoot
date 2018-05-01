@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/SpringBootJPAThymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootMybatisXML/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootMybatisAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMybatisDruid/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMultiMybatisDruid/pom.xml" />
       </list>
     </option>
   </component>
