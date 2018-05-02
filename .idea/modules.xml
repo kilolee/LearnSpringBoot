@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisAnnotation/SpringBootMybatisAnnotation.iml" filepath="$PROJECT_DIR$/SpringBootMybatisAnnotation/SpringBootMybatisAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisDruid/SpringBootMybatisDruid.iml" filepath="$PROJECT_DIR$/SpringBootMybatisDruid/SpringBootMybatisDruid.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" filepath="$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootRedis/SpringBootRedis.iml" filepath="$PROJECT_DIR$/SpringBootRedis/SpringBootRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" filepath="$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" filepath="$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" filepath="$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" />
