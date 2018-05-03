@@ -7,11 +7,9 @@ import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.cache.RedisCacheManager;
-import org.springframework.data.redis.connection.RedisConnectionFactory;
-import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.lang.Nullable;
+
 
 import java.lang.reflect.Method;
 
@@ -38,4 +36,9 @@ public class RedisConfig extends CachingConfigurerSupport {
         };
     }
 
+//    @Nullable
+//    @Override
+//    public CacheManager cacheManager() {
+//        return RedisCacheManager.RedisCacheManagerBuilder.fromConnectionFactory();
+//    }
 }
