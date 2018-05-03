@@ -15,8 +15,10 @@
         <module name="SpringBootMybatisDruid" />
         <module name="SpringBootMybatisXML" />
         <module name="SpringBootRedis" />
+        <module name="SpringBootRedisDataCache" />
         <module name="SpringBootWeb" />
         <module name="SpringDataJPA" />
+        <module name="SpringmMultiDataJPA" />
         <module name="SpringMultiDataJPA" />
       </profile>
     </annotationProcessing>
@@ -30,8 +32,10 @@
       <module name="SpringBootMybatisDruid" target="1.8" />
       <module name="SpringBootMybatisXML" target="1.8" />
       <module name="SpringBootRedis" target="1.8" />
+      <module name="SpringBootRedisDataCache" target="1.8" />
       <module name="SpringBootWeb" target="1.8" />
       <module name="SpringDataJPA" target="1.8" />
+      <module name="SpringmMultiDataJPA" target="1.8" />
       <module name="SpringMultiDataJPA" target="1.8" />
     </bytecodeTargetLevel>
   </component>

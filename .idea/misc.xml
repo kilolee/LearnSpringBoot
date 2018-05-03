@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/SpringBootMybatisDruid/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootMultiMybatisDruid/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootRedisDataCache/pom.xml" />
       </list>
     </option>
   </component>

@@ -10,17 +10,24 @@ import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.lang.Nullable;
 
-
 import java.lang.reflect.Method;
 
 /**
- * Created by kilo on 2018/5/2.
+ * Created by kilo on 2018/5/3.
  */
 @Configuration
 @EnableCaching
 public class RedisConfig extends CachingConfigurerSupport {
 
+
+//    @Bean
+//    public CacheManager cacheManager(RedisTemplate redisTemplate) {
+//        RedisCacheManager rcm = new RedisCacheManager(redisTemplate);
+//        return rcm;
+//    }
+
     @Bean
+    @Override
     public KeyGenerator keyGenerator() {
         return new KeyGenerator() {
             @Override
@@ -34,6 +41,7 @@ public class RedisConfig extends CachingConfigurerSupport {
                 return sb.toString();
             }
         };
-    }
 
+
+    }
 }
