@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBootJPAThymeleaf/SpringBootJPAThymeleaf.iml" filepath="$PROJECT_DIR$/SpringBootJPAThymeleaf/SpringBootJPAThymeleaf.iml" />
-      <module fileurl="file://G:\workspace-for-IntelliJ\LearnSpringBoot\SpringBootThymeleaf\SpringBootJPAThymeleaf.iml" filepath="G:\workspace-for-IntelliJ\LearnSpringBoot\SpringBootThymeleaf\SpringBootJPAThymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBootMultiMybatisDruid/SpringBootMultiMybatisDruid.iml" filepath="$PROJECT_DIR$/SpringBootMultiMybatisDruid/SpringBootMultiMybatisDruid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisAnnotation/SpringBootMybatisAnnotation.iml" filepath="$PROJECT_DIR$/SpringBootMybatisAnnotation/SpringBootMybatisAnnotation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisDruid/SpringBootMybatisDruid.iml" filepath="$PROJECT_DIR$/SpringBootMybatisDruid/SpringBootMybatisDruid.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" filepath="$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootRedis/SpringBootRedis.iml" filepath="$PROJECT_DIR$/SpringBootRedis/SpringBootRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootRedisDataCache/SpringBootRedisDataCache.iml" filepath="$PROJECT_DIR$/SpringBootRedisDataCache/SpringBootRedisDataCache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" filepath="$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" filepath="$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootRedisSession/SpringBootRedisSession.iml" filepath="$PROJECT_DIR$/SpringBootRedisSession/SpringBootRedisSession.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" filepath="$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" />
-      <module fileurl="file://G:\workspace-for-IntelliJ\LearnSpringBoot\SpringMultiDataJPA\spring-multi-data-jpa.iml" filepath="G:\workspace-for-IntelliJ\LearnSpringBoot\SpringMultiDataJPA\spring-multi-data-jpa.iml" />
     </modules>
   </component>
 </project>

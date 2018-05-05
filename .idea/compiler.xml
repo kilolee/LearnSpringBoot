@@ -7,23 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Demo" />
-        <module name="HelloWorld" />
-        <module name="spring-multi-data-jpa" />
-        <module name="SpringBootJPAThymeleaf" />
-        <module name="SpringBootMultiMybatisDruid" />
-        <module name="SpringBootMybatisAnnotation" />
-        <module name="SpringBootMybatisDruid" />
         <module name="SpringBootMybatisXML" />
         <module name="SpringBootRedis" />
         <module name="SpringBootRedisDataCache" />
-        <module name="SpringBootWeb" />
-        <module name="SpringDataJPA" />
+        <module name="SpringBootRedisSession" />
         <module name="SpringmMultiDataJPA" />
         <module name="SpringMultiDataJPA" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Demo" target="1.8" />
+      <module name="helloworld" target="1.8" />
       <module name="HelloWorld" target="1.8" />
       <module name="spring-multi-data-jpa" target="1.8" />
       <module name="SpringBootJPAThymeleaf" target="1.8" />
@@ -33,6 +27,7 @@
       <module name="SpringBootMybatisXML" target="1.8" />
       <module name="SpringBootRedis" target="1.8" />
       <module name="SpringBootRedisDataCache" target="1.8" />
+      <module name="SpringBootRedisSession" target="1.8" />
       <module name="SpringBootWeb" target="1.8" />
       <module name="SpringDataJPA" target="1.8" />
       <module name="SpringmMultiDataJPA" target="1.8" />
