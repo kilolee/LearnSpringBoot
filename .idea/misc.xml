@@ -5,9 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/Demo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootMybatisXML/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBootRedis/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootRedisDataCache/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootRedisSession/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootRabbitMQ/pom.xml" />
       </list>
     </option>
   </component>

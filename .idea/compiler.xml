@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Demo" />
         <module name="SpringBootMybatisXML" />
-        <module name="SpringBootRedis" />
+        <module name="SpringBootRabbitMQ" />
         <module name="SpringBootRedisDataCache" />
         <module name="SpringBootRedisSession" />
         <module name="SpringmMultiDataJPA" />
@@ -25,6 +25,7 @@
       <module name="SpringBootMybatisAnnotation" target="1.8" />
       <module name="SpringBootMybatisDruid" target="1.8" />
       <module name="SpringBootMybatisXML" target="1.8" />
+      <module name="SpringBootRabbitMQ" target="1.8" />
       <module name="SpringBootRedis" target="1.8" />
       <module name="SpringBootRedisDataCache" target="1.8" />
       <module name="SpringBootRedisSession" target="1.8" />
