@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMongoDB/SpringBootMongoDB.iml" filepath="$PROJECT_DIR$/SpringBootMongoDB/SpringBootMongoDB.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" filepath="$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootRabbitMQ/SpringBootRabbitMQ.iml" filepath="$PROJECT_DIR$/SpringBootRabbitMQ/SpringBootRabbitMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootRedisDataCache/SpringBootRedisDataCache.iml" filepath="$PROJECT_DIR$/SpringBootRedisDataCache/SpringBootRedisDataCache.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootRedisSession/SpringBootRedisSession.iml" filepath="$PROJECT_DIR$/SpringBootRedisSession/SpringBootRedisSession.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" filepath="$PROJECT_DIR$/SpringMultiDataJPA/SpringmMultiDataJPA.iml" />
+      <module fileurl="file://G:\workspace-for-IntelliJ\LearnSpringBoot\SpringMultiDataJPA\SpringmMultiDataJPA.iml" filepath="G:\workspace-for-IntelliJ\LearnSpringBoot\SpringMultiDataJPA\SpringmMultiDataJPA.iml" />
     </modules>
   </component>
 </project>

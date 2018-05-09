@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/SpringBootRedisDataCache/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootRedisSession/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootRabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMongoDB/pom.xml" />
       </list>
     </option>
   </component>
