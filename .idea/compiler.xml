@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Demo" />
+        <module name="SpringBootMail" />
         <module name="SpringBootMongoDB" />
         <module name="SpringBootMultiMongoDB" />
         <module name="SpringBootMybatisXML" />
@@ -23,6 +24,7 @@
       <module name="HelloWorld" target="1.8" />
       <module name="spring-multi-data-jpa" target="1.8" />
       <module name="SpringBootJPAThymeleaf" target="1.8" />
+      <module name="SpringBootMail" target="1.8" />
       <module name="SpringBootMongoDB" target="1.8" />
       <module name="SpringBootMultiMongoDB" target="1.8" />
       <module name="SpringBootMultiMybatisDruid" target="1.8" />

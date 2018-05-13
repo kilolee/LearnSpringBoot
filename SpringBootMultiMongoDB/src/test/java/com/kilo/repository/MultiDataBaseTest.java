@@ -32,8 +32,8 @@ public class MultiDataBaseTest {
         System.out.println("测试开始");
         System.out.println("************************************************************");
 
-        this.primaryRepository.save(new UserEntity(1l, "小张", "123"));
-        this.secondaryRepository.save(new UserEntity(2l, "小王", "456"));
+        this.primaryRepository.save(new UserEntity(11l, "小张", "123"));
+        this.secondaryRepository.save(new UserEntity(22l, "小王", "456"));
 
         List<UserEntity> primaries = this.primaryRepository.findAll();
         for (UserEntity primary : primaries) {

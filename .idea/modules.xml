@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMail/SpringBootMail.iml" filepath="$PROJECT_DIR$/SpringBootMail/SpringBootMail.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMongoDB/SpringBootMongoDB.iml" filepath="$PROJECT_DIR$/SpringBootMongoDB/SpringBootMongoDB.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMultiMongoDB/SpringBootMultiMongoDB.iml" filepath="$PROJECT_DIR$/SpringBootMultiMongoDB/SpringBootMultiMongoDB.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" filepath="$PROJECT_DIR$/SpringBootMybatisXML/SpringBootMybatisXML.iml" />
