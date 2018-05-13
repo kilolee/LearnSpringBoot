@@ -5,6 +5,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.context.Context;
 
 /**
  * Created by kilo on 2018/5/11.
@@ -15,6 +17,9 @@ public class MailServiceTest {
 
     @Autowired
     private MailService mailService;
+
+    @Autowired
+    private TemplateEngine templateEngine;
 
     @Test
     public void testSimpleMail() {
@@ -32,18 +37,27 @@ public class MailServiceTest {
     }
 
     @Test
-    public void testAttachmentsMail(){
-        String filePath="F:\\网站.txt";
-        mailService.sendAttachmentsMail("642026443@qq.com","带附件的邮件","有附件，请查收！",filePath);
+    public void testAttachmentsMail() {
+        String filePath = "F:\\网站.txt";
+        mailService.sendAttachmentsMail("642026443@qq.com", "带附件的邮件", "有附件，请查收！", filePath);
     }
 
 
     @Test
-    public void testInlineResourceMail(){
+    public void testInlineResourceMail() {
         String rscId = "kilo";
         String content = "<html><body>这是有图片的邮件：<img src=\'cid:" + rscId + "\' ></body></html>";
         String imgPath = "F:\\初识Hadoop.jpg";
-        mailService.sendInlineResourceMail("642026443@qq.com","主题：这是有图片的邮件", content, imgPath, rscId);
+        mailService.sendInlineResourceMail("642026443@qq.com", "主题：这是有图片的邮件", content, imgPath, rscId);
+    }
+
+    @Test
+    public void testSendTemplateMail() {
+        //创建邮件正文
+        Context context = new Context();
+        context.setVariable("id", "kilo11");
+        String emailContent = templateEngine.process("emailTemplate", context);
+        mailService.sendHtmlMail("642026443@qq.com", "主题：这是模板邮件", emailContent);
     }
 
 }
