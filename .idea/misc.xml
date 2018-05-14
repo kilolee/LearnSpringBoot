@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/SpringBootMongoDB/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootMultiMongoDB/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootMail/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootScheduler/pom.xml" />
       </list>
     </option>
   </component>
