@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CaseUserManage" />
         <module name="Demo" />
         <module name="SpringBootMail" />
         <module name="SpringBootMongoDB" />
@@ -21,6 +22,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CaseUserManage" target="1.8" />
       <module name="Demo" target="1.8" />
       <module name="helloworld" target="1.8" />
       <module name="HelloWorld" target="1.8" />

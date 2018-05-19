@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/CaseUserManage" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HelloWorld" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootJPAThymeleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootMail" charset="UTF-8" />
