@@ -114,7 +114,10 @@ public class IndexController {
             modelMap.addAttribute("errorMsg", errorMsg);
             return "register";
         }
-        UserEntity u = userRepository.findUserByUserNameOrEmail(registerParam.getUserName(), registerParam.getEmail());
+        //邮箱可以共用
+        UserEntity u = userRepository.findByUserName(registerParam.getUserName());
+        //一个邮箱只能给一个用户用来注册
+//        UserEntity u = userRepository.findUserByUserNameOrEmail(registerParam.getUserName(), registerParam.getEmail());
         if (u != null) {
             modelMap.addAttribute("errorMsg", "用户名已存在!");
             return "register";
