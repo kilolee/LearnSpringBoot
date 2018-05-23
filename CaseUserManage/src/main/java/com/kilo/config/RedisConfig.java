@@ -11,8 +11,8 @@ import java.lang.reflect.Method;
 /**
  * Created by kilo on 2018/5/3.
  */
-//@Configuration
-//@EnableCaching
+@Configuration
+@EnableCaching
 public class RedisConfig extends CachingConfigurerSupport {
 
 

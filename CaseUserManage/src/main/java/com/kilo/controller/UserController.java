@@ -36,7 +36,7 @@ public class UserController {
     private UserRepository userRepository;
 
     @RequestMapping(value = "/list")
-//    @Cacheable(value = "user_list")
+    @Cacheable(value = "user_list")
     public String list(@RequestParam(value = "page", defaultValue = "0") Integer page, @RequestParam(value = "size", defaultValue = "6") Integer size, Model model) {
         Sort sort = Sort.by(Sort.Direction.DESC, "id");
         Pageable pageable = PageRequest.of(page, size, sort);
