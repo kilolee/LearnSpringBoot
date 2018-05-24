@@ -8,6 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CaseUserManage" />
         <module name="Demo" />
+        <module name="HelloWorld" />
+        <module name="helloworld" />
+        <module name="spring-boot--thymeleaf" />
+        <module name="spring-boot-jpa-thymeleaf" />
+        <module name="spring-boot-multi-mybatis-druid" />
+        <module name="spring-boot-mybatis-annotation" />
+        <module name="spring-boot-mybatis-druid" />
+        <module name="spring-boot-redis" />
+        <module name="spring-boot-web" />
+        <module name="spring-data-jpa" />
+        <module name="spring-multi-data-jpa" />
+        <module name="SpringBootJPAThymeleaf" />
         <module name="SpringBootMail" />
         <module name="SpringBootMongoDB" />
         <module name="SpringBootMultiMongoDB" />
@@ -26,6 +38,14 @@
       <module name="Demo" target="1.8" />
       <module name="helloworld" target="1.8" />
       <module name="HelloWorld" target="1.8" />
+      <module name="spring-boot--thymeleaf" target="1.8" />
+      <module name="spring-boot-jpa-thymeleaf" target="1.8" />
+      <module name="spring-boot-multi-mybatis-druid" target="1.8" />
+      <module name="spring-boot-mybatis-annotation" target="1.8" />
+      <module name="spring-boot-mybatis-druid" target="1.8" />
+      <module name="spring-boot-redis" target="1.8" />
+      <module name="spring-boot-web" target="1.8" />
+      <module name="spring-data-jpa" target="1.8" />
       <module name="spring-multi-data-jpa" target="1.8" />
       <module name="SpringBootJPAThymeleaf" target="1.8" />
       <module name="SpringBootMail" target="1.8" />

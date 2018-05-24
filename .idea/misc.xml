@@ -14,6 +14,16 @@
         <option value="$PROJECT_DIR$/SpringBootScheduler/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootQuartz/pom.xml" />
         <option value="$PROJECT_DIR$/CaseUserManage/pom.xml" />
+        <option value="$PROJECT_DIR$/HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootJPAThymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMultiMybatisDruid/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMybatisAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMybatisDruid/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootThymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDataJPA/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMultiDataJPA/pom.xml" />
       </list>
     </option>
   </component>
