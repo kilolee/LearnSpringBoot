@@ -8,12 +8,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.lang.Nullable;
 
 
 import java.lang.reflect.Method;
 
 /**
+ * 主键的产生策略
  * Created by kilo on 2018/5/2.
  */
 @Configuration

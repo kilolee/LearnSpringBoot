@@ -12,6 +12,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 对redisTemplate进行简单的包装
  * Created by kilo on 2018/5/2.
  */
 @Service
@@ -63,6 +64,8 @@ public class RedisService {
     }
 
     /**
+     * 判断key是否存在
+     *
      * @param key
      * @return
      */
@@ -71,6 +74,8 @@ public class RedisService {
     }
 
     /**
+     * 获取key对应的
+     *
      * @param key
      * @return
      */
@@ -126,7 +131,7 @@ public class RedisService {
     public void hashSet(String key, Object hashKey, Object value) {
         HashOperations<String, Object, Object> hash = redisTemplate.opsForHash();
         hash.put(key, hashKey, value);
-//        redisTemplate.delete(key);
+//        redisTemplate.delete(key);value
     }
 
     /**
@@ -202,15 +207,16 @@ public class RedisService {
 
     /**
      * range by score
+     *
      * @param key
      * @param start
      * @param end
      * @return
      */
-    public Set<Object> rangeByScore(String key,double start,double end){
-     ZSetOperations<String ,Object> zset=  redisTemplate.opsForZSet();
-    return zset.rangeByScore(key,start,end);
-}
+    public Set<Object> rangeByScore(String key, double start, double end) {
+        ZSetOperations<String, Object> zset = redisTemplate.opsForZSet();
+        return zset.rangeByScore(key, start, end);
+    }
 
 
 }

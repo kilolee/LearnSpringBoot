@@ -22,7 +22,7 @@ public class UserController {
     private UserRepository userRepository;
 
     /**
-     * 缓存中的 key 就是参数 name，value 就是返回的 String 值。
+     * 缓存中的 key 就是 类名+方法名+参数 ，value 就是返回的 String 值。
      * @param name
      * @return
      */
@@ -41,7 +41,7 @@ public class UserController {
      * @return
      */
     @RequestMapping("/condition")
-    @Cacheable(value = "condititon", condition = "#name.length() <=4")
+    @Cacheable(value = "condition", condition = "#name.length() <=4")
     public String condition(String name) {
         System.out.println("没有走缓存！");
         return "hello : " + name;

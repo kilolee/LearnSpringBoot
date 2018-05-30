@@ -13,6 +13,7 @@ import org.springframework.lang.Nullable;
 import java.lang.reflect.Method;
 
 /**
+ * 主键的产生策略
  * Created by kilo on 2018/5/3.
  */
 @Configuration
