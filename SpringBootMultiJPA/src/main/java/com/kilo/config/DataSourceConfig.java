@@ -18,14 +18,14 @@ public class DataSourceConfig {
 
     @Bean(name = "primaryDataSource")
     @Qualifier("primaryDataSource")
-    @ConfigurationProperties(prefix = "spring.datasource.primary")//绑定application.properties中的属性
+    @ConfigurationProperties(prefix = "spring.primary.datasource")//绑定application.properties中的属性
     public DataSource primaryDataSource() {
         return DataSourceBuilder.create().build();
     }
 
     @Bean(name = "secondaryDataSource")
     @Qualifier("secondaryDataSource")
-    @ConfigurationProperties(prefix = "spring.datasource.secondary")
+    @ConfigurationProperties(prefix = "spring.secondary.datasource")
     @Primary
     public DataSource secondaryDataSource() {
         return DataSourceBuilder.create().build();
