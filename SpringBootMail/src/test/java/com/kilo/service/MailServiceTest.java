@@ -18,6 +18,9 @@ public class MailServiceTest {
     @Autowired
     private MailService mailService;
 
+    /**
+     * Main class for the execution of templates.
+     */
     @Autowired
     private TemplateEngine templateEngine;
 

@@ -4,9 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CaseUserManage/CaseUserManage.iml" filepath="$PROJECT_DIR$/CaseUserManage/CaseUserManage.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootJPA/SpringDataJPA.iml" filepath="$PROJECT_DIR$/SpringBootJPA/SpringDataJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootJPAThymeleaf/SpringBootJPAThymeleaf.iml" filepath="$PROJECT_DIR$/SpringBootJPAThymeleaf/SpringBootJPAThymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMail/SpringBootMail.iml" filepath="$PROJECT_DIR$/SpringBootMail/SpringBootMail.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMongoDB/SpringBootMongoDB.iml" filepath="$PROJECT_DIR$/SpringBootMongoDB/SpringBootMongoDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMultiJPA/SpringMultiDataJPA.iml" filepath="$PROJECT_DIR$/SpringBootMultiJPA/SpringMultiDataJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMultiMongoDB/SpringBootMultiMongoDB.iml" filepath="$PROJECT_DIR$/SpringBootMultiMongoDB/SpringBootMultiMongoDB.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMultiMybatisDruid/SpringBootMultiMybatisDruid.iml" filepath="$PROJECT_DIR$/SpringBootMultiMybatisDruid/SpringBootMultiMybatisDruid.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatisAnnotation/SpringBootMybatisAnnotation.iml" filepath="$PROJECT_DIR$/SpringBootMybatisAnnotation/SpringBootMybatisAnnotation.iml" />
@@ -20,8 +22,6 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootScheduler/SpringBootScheduler.iml" filepath="$PROJECT_DIR$/SpringBootScheduler/SpringBootScheduler.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootThymeleaf/SpringBootThymeleaf.iml" filepath="$PROJECT_DIR$/SpringBootThymeleaf/SpringBootThymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" filepath="$PROJECT_DIR$/SpringBootWeb/SpringBootWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" filepath="$PROJECT_DIR$/SpringDataJPA/SpringDataJPA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringMultiDataJPA/SpringMultiDataJPA.iml" filepath="$PROJECT_DIR$/SpringMultiDataJPA/SpringMultiDataJPA.iml" />
       <module fileurl="file://G:\workspace-for-IntelliJ\LearnSpringBoot\SpringMultiDataJPA\SpringmMultiDataJPA.iml" filepath="G:\workspace-for-IntelliJ\LearnSpringBoot\SpringMultiDataJPA\SpringmMultiDataJPA.iml" />
       <module fileurl="file://G:\workspace-for-IntelliJ\LearnSpringBoot\SpringBootJPAThymeleaf\spring-boot-jpa-thymeleaf.iml" filepath="G:\workspace-for-IntelliJ\LearnSpringBoot\SpringBootJPAThymeleaf\spring-boot-jpa-thymeleaf.iml" />
       <module fileurl="file://G:\workspace-for-IntelliJ\LearnSpringBoot\SpringBootMultiMybatisDruid\spring-boot-multi-mybatis-druid.iml" filepath="G:\workspace-for-IntelliJ\LearnSpringBoot\SpringBootMultiMybatisDruid\spring-boot-multi-mybatis-druid.iml" />

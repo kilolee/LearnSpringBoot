@@ -15,7 +15,7 @@ import java.util.Date;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DemoApplicationTests {
+public class SpringBootMultiJPAApplicationTests {
 
     @Autowired
     @Qualifier("primaryJdbcTemplate")

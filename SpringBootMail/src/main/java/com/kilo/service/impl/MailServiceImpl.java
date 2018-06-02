@@ -25,7 +25,7 @@ public class MailServiceImpl implements MailService {
 
     @Autowired
     private JavaMailSender mailSender;
-
+//@Value("#{spring.mail.username}")
     @Value("${spring.mail.username}")
     private String from;
 
@@ -60,7 +60,7 @@ public class MailServiceImpl implements MailService {
             helper.setFrom(from);
             helper.setTo(to);
             helper.setSubject(subject);
-            helper.setText(content, true);
+            helper.setText(content);
             mailSender.send(message);
             logger.info("发送邮件成功");
         } catch (MessagingException e) {
